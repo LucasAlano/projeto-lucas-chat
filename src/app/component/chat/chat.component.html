@@ -1,0 +1,18 @@
+<section id='all'>
+
+        <h1> Atendimento Online </h1>
+
+    <div id="chat">
+        <section id='chat'>
+
+        </section>
+    </div>
+    <div id='input'>
+        <input id='texto' type="text" value="Digite o texto..." [(ngModel)]="textoInput">
+        <input id='userbtn' type="button" value="Enviar" (click)="addUserMessage()">
+        <input id='helperbtn' type="button" value="Receber" (click)="addHelperMessage()">
+    </div>
+</section>
+<p id='creator'>Feito por <strong>@luc.alano</strong></p>
+
+<link rel="stylesheet" href="chat.component.css">
